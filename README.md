@@ -7,4 +7,14 @@
 
 [Saucedemo Link]("https://saucedemo.com")
 
-### last class [Youtube Class 6](https://www.youtube.com/watch?v=kyReTyj9MSk&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=6)
+### Class 7: 
+
+[Orange HRM]("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+### last class [Youtube Class 6](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
+
+
+
+## <mark>How to run tests by terminal</mark>
+
+` npx playwright test --grep "<<test name>>" --project="chromium" --headed `
