@@ -11,7 +11,7 @@
 
 [Orange HRM]("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
-### last class [Youtube Class 6](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
+### last class [Youtube Class 7](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
 
 
 
