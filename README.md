@@ -5,15 +5,15 @@
 ## [PLAYWRIGHT RETO 30 DIAS (youtube)](https://www.youtube.com/watch?v=Qb-2wHUVVas&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN)
 
 
-### Video 6: 
+### Video 6 resource: 
 
 [Saucedemo Link](https://saucedemo.com)
 
-### Video 7: 
+### Video 7 resource: 
 
 [Orange HRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
-### last video [Youtube Video 7](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
+### last video [Youtube Video 7 - Challenge Day 2](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
 
 
 
