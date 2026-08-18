@@ -29,3 +29,16 @@ test("login Orange HRM invalid user", async ({ page }) => {
   await expect(page.getByText("Invalid Credentials")).toBeVisible()
 
 })
+
+test("login Orange HRM invalid password", async ({ page }) => {
+
+
+  await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+  await page.getByRole('textbox', {name: 'Username'}).fill('Admin');
+  await page.getByRole('textbox', {name: 'Password'}).fill('username');
+  await page.getByRole('button', {name: 'Login'}).click();
+
+  await expect(page.getByText("Invalid Credentials")).toBeVisible()
+
+})
