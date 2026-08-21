@@ -36,4 +36,21 @@ test('get all the usernames registered', async ({ page }) => {
   }
 
   console.log(usernames);
+
+  const employeeNames: string[] = [];
+
+  for (let i=1; i < rowCount; i++) {
+    const cell = rows.nth(i).getByRole('cell').nth(3); // accedo a la columna de los nombres de los empleados
+    const employeeName = await cell.textContent();
+
+    if(employeeName) {
+      employeeNames.push(employeeName);
+    }
+  }
+
+  console.log(employeeNames);
+
+  
 });
+
+
