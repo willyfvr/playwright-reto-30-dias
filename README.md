@@ -13,7 +13,8 @@
 
 [Orange HRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
-### last video [Youtube Video 7 - Challenge Day 2](https://www.youtube.com/watch?v=HrwImJ2ciFg&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=7)
+### last video
+[![Youtube Video 9 - Challenge Day 3](https://www.youtube.com/watch?v=cFpY2ureW34&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=9)](https://www.youtube.com/watch?v=cFpY2ureW34&list=PLeo6Q1inqlOdzmWkbp0KqG79x2JM1OgzN&index=9)
 
 
 
@@ -29,3 +30,28 @@
 
 
 ![Inspector Accessibility](./resources/img/inspector-accessibility.png)
+
+## Important Functions 
+
+### nth(index)
+
+- (method) Locator.nth(index: number): Locator
+
+Returns locator to the n-th matching element. It's zero based,nth(0)selects the first element.
+
+Usage
+
+`const banana = await page.getByRole('listitem').nth(2); `
+
+this example return the position 3 in the list (0, 1, 2)
+
+------------------------------------------------------------
+
+## NOTES
+
+- difference between `innerText()` and `contentText()` functions
+
+**contentText()**: get the text from the DOM, visible or not for the user. 
+
+**innerText()**: get the text that user see.
+  
