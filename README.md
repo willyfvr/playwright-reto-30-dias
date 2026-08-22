@@ -33,6 +33,8 @@
 
 ## Important Functions 
 
+### nth(index)
+
 - (method) Locator.nth(index: number): Locator
 
 Returns locator to the n-th matching element. It's zero based,nth(0)selects the first element.
@@ -43,3 +45,13 @@ Usage
 
 this example return the position 3 in the list (0, 1, 2)
 
+------------------------------------------------------------
+
+## NOTES
+
+- difference between `innerText()` and `contentText()` functions
+
+**contentText()**: get the text from the DOM, visible or not for the user. 
+
+**innerText()**: get the text that user see.
+  
